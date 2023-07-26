@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="1. Test Broken Link: Homepage">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksHomepage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="2. Test Broken Link: Benefits">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksBenefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="3. Test Broken Link: Pharmacy and Prescriptions">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksPharmacyAndPrescp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<test name="4. Test Broken Link: ID Card">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksIDCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="5. Test Broken Link: OTC Benefits">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksOTCBenefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+			<test name="6. Test Broken Link: Flex Card">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksFlexCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<test name="7. Test Broken Link: Rewards">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksReward" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="8. Test Broken Link: Plan History">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksPlanHistory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="9. Test Broken Link: My PCP">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksMyPCP" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="10. Test Broken Link: My Health Plan Care Team">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksMyHealthPlanTeam" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="11. Test Broken Link: Service Authorizations">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksServiceAuthorizations" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="12. Test Broken Link: My Medical Supplies and Equipment">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksMyMedicalSuppliesandEquipment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="13. Test Broken Link: My Claims">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenImagesClaims" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="14. Test Broken Link: My Plan Resources">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksMyPlanResources" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="15. Test Broken Link: Benefit Partners">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksBenefitPartners" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="16. Test Broken Link: Grievances">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksGrievances" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+			<test name="17. Test Broken Link: Appeals">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksAppeals" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+			<test name="18. Test Broken Link: Communication Center">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksComCenter" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+			<test name="19. Test Broken Link: My Account">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenLinkMP">
+				<methods>
+					<include name="testBrokenLinksMyAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="1. Test Broken Image: Homepage">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesHomepage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="2. Test Broken Image: Benefits">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesBenefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="3. Test Broken Image: Pharmacy and Prescriptions">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesPharmacyAndPrescp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<test name="4. Test Broken Image: ID Card">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesIDCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="5. Test Broken Image: OTC Benefits">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesOTCBenefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+			<test name="6. Test Broken Image: Flex Card">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesFlexCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<test name="7. Test Broken Image: Rewards">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesReward" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="8. Test Broken Image: Plan History">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesPlanHistory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="9. Test Broken Image: My PCP">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesMyPCP" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="10. Test Broken Image: My Health Plan Care Team">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesMyHealthPlanTeam" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="11. Test Broken Image: Service Authorizations">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesServiceAuthorizations" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="12. Test Broken Image: My Medical Supplies and Equipment">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesMyMedicalSuppliesandEquipment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="13. Test Broken Image: My Claims">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesClaims" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="14. Test Broken Image: My Plan Resources">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesMyPlanResources" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="15. Test Broken Image: Benefit Partners">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesBenefitPartners" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="16. Test Broken Image: Grievances">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesGrievances" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+			<test name="17. Test Broken Image: Appeals">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesAppeals" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+			<test name="18. Test Broken Image: Communication Center">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesComCenter" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+			<test name="19. Test Broken Image: My Account">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="brokenLinkAndImageMP.BrokenImageMP">
+				<methods>
+					<include name="testBrokenImagesMyAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite> 

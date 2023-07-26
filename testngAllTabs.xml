@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="1. Homepage">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Homepage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="2. Benefits">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Benefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="3. Pharmacy and Prescriptions">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="PharmacyAndPrescp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="4. ID Card">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="IDCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="5. OTC Benefits">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="OTCBenefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="6. Flex Card">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="FlexCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="7. Rewards">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Reward" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="8. Plan History">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="PlanHistory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="9. My PCP">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyPCP" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="10. My Health Plan Care Team">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyHealthPlanTeam" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="11. Service Authorizations">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="ServiceAuthorizations" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="12. My Medical Supplies and Equipment">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyMedicalSuppliesandEquipment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="13. My Claims">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Claims" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="14. My Plan Resources">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyPlanResources" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="15. Benefit Partners">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="BenefitPartners" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="16. Grievances">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Grievances" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="17. Appeals">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Appeals" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="18. Communication Center">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="ComCenter" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="19. My Account">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+	<!--<test name="1. Homepage: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Homepage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="2. Benefits: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Benefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="3. Pharmacy and Prescriptions: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="PharmacyAndPrescp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="4. ID Card: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="IDCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="5. OTC Benefits: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="OTCBenefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="6. Flex Card: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="FlexCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="7. Rewards: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Reward" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="8. Plan History: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="PlanHistory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="9. My PCP: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyPCP" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="10. My Health Plan Care Team: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyHealthPlanTeam" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="11. Service Authorizations: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="ServiceAuthorizations" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="12. My Medical Supplies and Equipment: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyMedicalSuppliesandEquipment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="13. My Claims: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Claims" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="14. My Plan Resources: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyPlanResources" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="15. Benefit Partners: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="BenefitPartners" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="16. Grievances: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Grievances" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="17. Appeals: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Appeals" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="18. Communication Center: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="ComCenter" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="19. My Account: Chrome Browser">
+		<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="1. Homepage: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Homepage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="2. Benefits: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Benefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="3. Pharmacy and Prescriptions: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="PharmacyAndPrescp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="4. ID Card: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="IDCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="5. OTC Benefits: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="OTCBenefits" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="6. Flex Card: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="FlexCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="7. Rewards: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Reward" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="8. Plan History: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="PlanHistory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="9. My PCP: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyPCP" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="10. My Health Plan Care Team: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyHealthPlanTeam" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="11. Service Authorizations: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="ServiceAuthorizations" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="12. My Medical Supplies and Equipment: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyMedicalSuppliesandEquipment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="13. My Claims">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Claims" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="14. My Plan Resources: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyPlanResources" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="15. Benefit Partners: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="BenefitPartners" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="16. Grievances: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Grievances" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="17. Appeals: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="Appeals" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="18. Communication Center: Edge Browser">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="ComCenter" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="19. My Account: Edge Browser">
+		<parameter name="browserName: Edge Browser" value="edge" />
+		<classes>
+			<class name="allTabsMemberPortal.AllTabsScreenshot">
+				<methods>
+					<include name="MyAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>-->
+</suite> 
