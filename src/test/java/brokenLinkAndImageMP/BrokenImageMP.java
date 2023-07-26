@@ -42,7 +42,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import dataDriven.dataDriven;
+import dataDriven.dataDrivenBLI;
 
 import extentReport.BaseTestBrokenLinkImage;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -55,12 +55,11 @@ import org.apache.hc.client5.http.classic.methods.HttpGet;
 public class BrokenImageMP extends BaseTestBrokenLinkImage {
 	public ExtentTest extentTest;
 
-	dataDriven d = new dataDriven();
+	dataDrivenBLI d = new dataDrivenBLI();
 
 	// 1. Homepage
 	@Test(groups = "Broken Image Test")
 	public void testBrokenImagesHomepage() throws InterruptedException, IOException {
-		Thread.sleep(5000);
 		testBrokenImages();
 	}
 

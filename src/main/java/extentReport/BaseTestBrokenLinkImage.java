@@ -11,9 +11,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import dataDriven.dataDriven;
-import io.github.bonigarcia.wdm.WebDriverManager;
-
+import dataDriven.dataDrivenBLI;
 import org.apache.commons.io.FileUtils;
 
 import org.apache.hc.client5.http.classic.methods.HttpGet;
@@ -57,6 +55,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import javax.imageio.ImageIO;
 
@@ -71,7 +70,7 @@ public class BaseTestBrokenLinkImage implements ITestListener {
 
 	@BeforeTest
 	public void setup(ITestContext context) throws IOException, InterruptedException {
-		dataDriven d = new dataDriven();
+		dataDrivenBLI d = new dataDrivenBLI();
 		
 		extentTest = extentReports.createTest(context.getName());
 		
@@ -82,7 +81,8 @@ public class BaseTestBrokenLinkImage implements ITestListener {
 
 		// Get Login Page
 		ArrayList TS02 = d.getData("LI02", "loginSteps");
-		String loginPage= "https://vnshealth-crm--fullsbx.sandbox.my.site.com/member/";
+		//String loginPage = "https://vnshealth-crm--fullsbx.sandbox.my.site.com/member/";
+		String loginPage= (String) TS02.get(6);
 		driver.get(loginPage);
 		log("The Login Page url is: " + loginPage);
 
@@ -99,15 +99,16 @@ public class BaseTestBrokenLinkImage implements ITestListener {
 		// Enter Username
 		ArrayList TS05 = d.getData("LI05", "loginSteps");
 		//String username = 	"alour2023";
-		String username = 	"fkm89720";
+		//String username = 	"fkm89720";
+		String username = (String) TS05.get(6);
 		WebElement uname = driver.findElement(By.xpath((String) TS05.get(5)));
 		uname.sendKeys(username);
 
 		// Enter Password
 		ArrayList TS06 = d.getData("LI06", "loginSteps");
-		String password = "Welcome1!";
+		//String password = "Welcome1!";
 		WebElement pwd = driver.findElement(By.xpath((String) TS06.get(5)));
-		pwd.sendKeys(password);
+		pwd.sendKeys((String) TS06.get(6));
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		// Click SignOn
@@ -119,7 +120,7 @@ public class BaseTestBrokenLinkImage implements ITestListener {
 		ArrayList TS06A = d.getData("LI06", "loginSteps");
 		//String password1 = (String) TS06A.get(6);
 		WebElement pwd1 = driver.findElement(By.xpath("//input"));
-		pwd1.sendKeys(password);
+		pwd1.sendKeys((String) TS06.get(6));
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		// Click SignOn

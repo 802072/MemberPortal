@@ -43,7 +43,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import dataDriven.dataDriven;
+import dataDriven.dataDrivenBLI;
 
 import extentReport.BaseTestBrokenLinkImage;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -56,12 +56,11 @@ import org.apache.hc.client5.http.classic.methods.HttpGet;
 public class BrokenLinkMP extends BaseTestBrokenLinkImage {
 	public ExtentTest extentTest;
 
-	dataDriven d = new dataDriven();
+	dataDrivenBLI d = new dataDrivenBLI();
 
 	// 1. Homepage
 	@Test(groups = "Broken Link Test")
 	public void testBrokenLinksHomepage() throws InterruptedException, IOException {
-		Thread.sleep(5000);
 		ArrayList TS01 = d.getData("01TS01", "BrokenLinkTC");
 		List<WebElement> mylinks = driver.findElements(By.xpath((String) TS01.get(5)));
 		testBrokenLinks(mylinks);

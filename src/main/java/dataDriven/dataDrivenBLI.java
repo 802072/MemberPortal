@@ -12,13 +12,13 @@ import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class dataDriven {
+public class dataDrivenBLI {
 
 	public ArrayList<String> getData(String testcaseName, String sheetName) throws IOException {
 		ArrayList<String> a = new ArrayList<String>();
 
 		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\802072\\eclipse-workspace1\\MemberPortalBrokenLinkImageTest\\src\\test\\resources\\testCases\\testCasesBrokenLinkImage.xlsx");
+				"C:\\Users\\802072\\eclipse-workspace1\\MemberPortal\\src\\test\\resources\\testCases\\testCasesBrokenLinkImage.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		int sheets = workbook.getNumberOfSheets();
