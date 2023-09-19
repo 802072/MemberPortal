@@ -12,7 +12,7 @@
 		</classes>
 	</test>
 
-	<test name="2. Benefits">
+	<!--<test name="2. Benefits">
 		<parameter name="browserName" value="Chrome" />
 		<classes>
 			<class name="allTabsMemberPortal.AllTabsScreenshot">
@@ -200,7 +200,7 @@
 	
 	
 	
-	<!--<test name="1. Homepage: Chrome Browser">
+	<test name="1. Homepage: Chrome Browser">
 		<parameter name="browserName" value="Chrome" />
 		<classes>
 			<class name="allTabsMemberPortal.AllTabsScreenshot">
